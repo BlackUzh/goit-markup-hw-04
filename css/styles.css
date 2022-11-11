@@ -107,6 +107,18 @@ body {
 
 /* Contacts Nav */
 
+.icon-envelope {
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--pcolor);
+}
+
+.icon-envelope:hover {
+    fill: var(--brandcolor);
+}
+
 .contacts-nav {
     display: flex;
     margin-left: auto;
@@ -117,7 +129,7 @@ body {
 }
 
 .contacts-nav .link {
-    display: block;
+    display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -132,6 +144,7 @@ body {
 .link:focus {
     color: var(--brandcolor);
 }
+
 /* Main Studio */
 .hero {
     padding-top: 200px;
